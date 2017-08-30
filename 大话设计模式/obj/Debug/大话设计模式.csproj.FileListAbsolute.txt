@@ -1,0 +1,5 @@
+C:\Users\Fife\Desktop\大话设计模式\大话设计模式\bin\Debug\大话设计模式.exe
+C:\Users\Fife\Desktop\大话设计模式\大话设计模式\bin\Debug\大话设计模式.pdb
+C:\Users\Fife\Desktop\大话设计模式\大话设计模式\obj\Debug\大话设计模式.exe
+C:\Users\Fife\Desktop\大话设计模式\大话设计模式\obj\Debug\大话设计模式.pdb
+C:\Users\Fife\Desktop\大话设计模式\大话设计模式\obj\Debug\大话设计模式.csprojResolveAssemblyReference.cache

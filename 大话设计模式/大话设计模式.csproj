@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F01FD0EF-A286-4171-A73D-C971D3290DAE}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>大话设计模式</RootNamespace>
+    <AssemblyName>大话设计模式</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="中介者模式\Mediator.cs" />
+    <Compile Include="中介者模式\UnitedNations.cs" />
+    <Compile Include="享元模式\Flyweight.cs" />
+    <Compile Include="享元模式\WebSite.cs" />
+    <Compile Include="代理模式\IGiveGift.cs" />
+    <Compile Include="单列模式\Singleton.cs" />
+    <Compile Include="原型模式\ColorPrototype.cs" />
+    <Compile Include="原型模式\Member.cs" />
+    <Compile Include="原型模式\WorkExperience.cs" />
+    <Compile Include="命令模式\Barbecure.cs" />
+    <Compile Include="备忘录模式\GameRole.cs" />
+    <Compile Include="备忘录模式\Originator.cs" />
+    <Compile Include="外观模式\Projector.cs" />
+    <Compile Include="工厂方法模式\IReplaceContent.cs" />
+    <Compile Include="工厂方法模式\Ishop.cs" />
+    <Compile Include="工厂方法模式\Live.cs" />
+    <Compile Include="建造者模式\Builder.cs" />
+    <Compile Include="抽象工厂模式\KFCFood.cs" />
+    <Compile Include="桥接模式\HandSetSoft.cs" />
+    <Compile Include="模板方法模式\Vegetabel.cs" />
+    <Compile Include="状态模式\Light.cs" />
+    <Compile Include="状态模式\WorkState.cs" />
+    <Compile Include="策略模式\Strategy.cs" />
+    <Compile Include="组合模式\Companys.cs" />
+    <Compile Include="职责链模式\Manager.cs" />
+    <Compile Include="装饰者模式\Component.cs" />
+    <Compile Include="装饰者模式\Tank.cs" />
+    <Compile Include="观察者模式\Blog.cs" />
+    <Compile Include="观察者模式\ISubject.cs" />
+    <Compile Include="观察者模式\Stock.cs" />
+    <Compile Include="解释器模式\MessageModel.cs" />
+    <Compile Include="访问者模式\Action.cs" />
+    <Compile Include="访问者模式\Emploree.cs" />
+    <Compile Include="迭代器模式\IEumerator.cs" />
+    <Compile Include="迭代器模式\Iterator.cs" />
+    <Compile Include="适配器模式\Player.cs" />
+    <Compile Include="适配器模式\Target.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
